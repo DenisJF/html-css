@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h2>Usando links externos</h2>
+    <!--
+        target=
+            ‣ _blank vai abrir o link em uma nova janela em branco
+            ‣ _self vai abrir o link na janela ou frame atual (padrão)
+            ‣ _top vai desfazer todos os frames e abrir o destino no navegador completo
+            ‣ _parent similar ao uso do _top em uma referência à janela mãe
+            ‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir 
+
+        rel= 
+            ‣next indica que o link é para a próxima parte do documento atual
+            ‣prev indica que o link é para a parte anterior do documento atual
+            ‣author indica que é um link para o site do autor do artigo atual
+            ‣external indica que é um link para outro site que não faz parte do site
+    -->
+    <p>Vc pode acessar os meus <a href="https://www.youtube.com/channel/UCuifUgj8OK-55lvKcq-XT_w" target="_blank" rel="external">vídeos no youtube</a> ou comprar meus cursos.</p>
+    <h2>Usando links internos</h2>
+    <p>Clique aqui para ir para a <a href="pag002.html" target="_self">pagina 02</a></p>
+    <p>Clique aqui para ir para a <a href="noticias/pag003.html">página 03</a></p>
+    <h2>Links para download</h2>
+    <ul>
+        <li>Baixar livro em <a href="livro/10 - Ligações em toda parte.pdf">PDF</a></li>
+        <li>Baixar livro em <a href="livro/10 - Ligações em toda parte.rar" download="aqui" type="aplication/rar">RAR</a></li>
+    </ul>
+</body>
+</html>

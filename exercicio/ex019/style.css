@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é # (só pode 1 elemnto)
+    em HTML é class = em CSS é . (pode vários elementos)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+body {
+    background-color: #8c8d8f;
+    font-family: Dancing Script, Helvetica, serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc => Usar px ou em, pricipalmente em => recomendado pela wec
+
+    Medidas relativas
+    em, ex, rem, vn, vh, %
+    16px geralmente = 1em
+    */
+
+    font-size: 1.3em;
+    font-weight: normal;
+    /*lighter / normal / bold / bolder  */
+    font-style: normal; 
+    /* Obs.: weight = peso / width = largura / height = altura */
+}
+
+h1 {
+    color: #7E1946;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #8a566d;
+    color: #7E1946;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    color: #7E1946;
+}
+
+.basico {
+    color: tomato;
+}

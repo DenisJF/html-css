@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc => Usar px ou em, pricipalmente em => recomendado pela wec
+
+            Medidas relativas
+            em, ex, rem, vn, vh, %
+            16px geralmente = 1em
+            */
+
+            font-size: 1em;
+            font-weight: bold;
+            /*lighter / normal / bold / bolder  */
+            font-style: italic; 
+            /* Obs.: weight = peso / width = largura / height = altura */
+        }
+
+        h1, h2 {
+            /* shorthand font => font-style -> font-weight -> font-size -> font-family
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: Arial, Helvetica, sans-serif; */
+            font: normal bolder 3em 'Dancing Script', Helvetica, sans-serif;
+        }
+
+        p {
+            font: normal bolder 2em 'Dancing Script', Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga officia optio officiis hic aperiam nemo distinctio aspernatur est aut possimus excepturi voluptatibus, necessitatibus deleniti error eos corrupti? Dignissimos, ipsam est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum deleniti animi eos laborum possimus quia debitis, fugiat eius officia accusamus sunt ipsam maxime placeat nisi iure eaque mollitia labore?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis exercitationem enim vel odio corporis reprehenderit dolorem, mollitia repellendus recusandae neque vero error ipsa harum itaque laborum adipisci rerum dolorum voluptates.</p>
+</body>
+</html>

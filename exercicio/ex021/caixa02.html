@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #222222;
+            margin: 0;
+        }
+
+        header {
+            background-color: #183642;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: #26413C;
+            padding: 3px;
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.692);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #F0F3BD;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: #512D38;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: #26413C;
+        }
+        main {
+            background-color: #8c8d8f;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestias et officia, quis modi fugit consequuntur assumenda aspernatur reiciendis nam libero. Eos, itaque expedita? Fuga, expedita nisi! Itaque, ipsam totam?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Denis Mota</p>
+    </footer>
+</body>
+</html>
